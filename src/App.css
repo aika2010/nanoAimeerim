@@ -1,0 +1,1908 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+@import url("./components/Fonts/stylesheet.css");
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Header {
+    width: 100%;
+    background-color: rgb(37, 24, 115);
+}
+
+.Header__logo {
+    width: 100%;
+}
+
+.Header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.Header__ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.Header__ul-link {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+.Header__ul-link:hover {
+    color: red;
+}
+
+.Header__line {
+    width: 100%;
+    height: 2px;
+    color: rgb(204, 12, 12);
+}
+
+.Main {
+    background-color: rgb(37, 24, 115);
+}
+
+.Home {
+    width: 100%;
+    background-color: rgb(37, 24, 115);
+}
+
+.Home__block {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.Home__bigTitle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 220%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Home__sentence {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Home__img {
+    width: 42%;
+
+
+}
+
+.Advantages {
+    margin-top: 270px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(80, 94, 131) !important;
+}
+
+
+.Advantages__titleBlock {
+    margin-top: 4%;
+
+}
+
+.Advantages__titleBlock h2 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 190%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Advantages__titleBlock h4 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Advantages__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.Advantages__info-text {
+    
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 175%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Onlain {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 105px;
+    background: rgb(27, 35, 57);
+
+}
+
+.Onlain__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.Onlain__title {
+    margin-bottom: 55px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 220%;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.Onlain__sentence {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 200%;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+}
+
+.Onlain__img {
+    width: 35%;
+    display: flex;
+
+
+}
+
+.Question {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 89px;
+    background: rgb(32, 21, 97);
+
+}
+
+.Question__BigDiv {
+    width: 100%;
+    padding: 50px;
+
+}
+
+.Question__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 200%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Question__BigBlock {
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Question__industry {
+    margin-left: 40px;
+}
+
+.Question__world {
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.Question__potential {
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Question__SmallBlock {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Question__happiness {
+    width: 80%;
+}
+
+.Question__life {
+
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Question__hobby {
+    width: 30%;
+}
+
+.Question__work {
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.WeHave {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 140px;
+    background: rgb(80, 94, 131);
+    margin-top: 130px;
+
+}
+
+.WeHave__title {
+   
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 210%;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.WeHave__block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.WeHave__speed {
+    margin-bottom: 20px;
+    height: 310px;
+    width: 300px;
+    border-radius: 75px;
+    background: rgb(59, 79, 129);
+
+}
+
+.WeHave__freedom {
+    font-family: Montserrat;
+    font-size: 200%;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.WeHave__benefit {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 180%;
+    line-height: 146.28%;
+    text-align: center;
+    color: white;
+}
+
+.Directions {
+    width: 100%;
+    height: 370px;
+    margin-top: 120px;
+    background: rgb(49, 60, 89);
+}
+
+.Directions__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 200%;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Directions__bigBlock {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Directions__black {
+    border: none;
+    width: 440px;
+    height: 90px;
+    border-radius: 58px;
+    background: rgb(217, 217, 217);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.Directions__mobile {
+    background: transparent;
+    border: none;
+    color: rgb(255, 77, 0);
+    font-family: Montserrat;
+    font-size: 185%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.Directions__frontend {
+ background: transparent;
+    border: none;
+    color: rgb(255, 77, 0);
+    font-family: Montserrat;
+    font-size: 185%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Directions__smallBlock {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.Directions__backend {
+    background: transparent;
+    border: none;
+    color: rgb(255, 77, 0);
+    font-family: Montserrat;
+    font-size: 185%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.Directions__CMM {
+    background: transparent;
+    border: none;
+    color: rgb(255, 77, 0);
+    font-family: Montserrat;
+    font-size: 185%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.Footer {
+    background-color: rgb(37, 24, 115);
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.Footer__logo {
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 90px;
+
+}
+
+.Footer__bigBlock {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 90px;
+}
+
+
+
+.Footer__home {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__aboutUs {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.Footer__advantages {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__cours {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__study {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.Footer__block {
+    width: 40%;
+}
+
+.Footer__adres {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__kelechek {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.Footer__contact {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 180%;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__brotherNum {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Footer__sisterNum {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 160%;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width : 1024px) {
+    .Header__logo {
+        width: 55%;
+    }
+
+    .Header__ul {
+        display: flex;
+
+        width: 45%;
+    }
+    .Header__ul-link {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        margin-left: 70px;
+    }
+    .Home__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 89px;
+    }
+
+    .Home__bigTitle {
+        font-size: 170%;
+    }
+
+    .Home__sentence {
+        font-size: 135%;
+    }
+    .Home__img {
+        width: 40%;
+    }
+
+    .Advantages {
+
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+
+    .Advantages__titleBlock h2 {
+        font-size: 160%;
+    }
+
+    .Advantages__titleBlock h4 {
+
+        font-size: 150%;
+    }
+        .Advantages__info-text {
+            font-size: 140%;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+    .Advantages__info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Onlain {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+
+    .Onlain__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Onlain__title {
+        font-size: 160%;
+    }
+    .Onlain__sentence {
+        margin: 0 auto;
+        font-size: 150%;
+    }
+    .Onlain__img {
+        width: 34%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .Question {
+        width: 90%;
+    }
+
+    .Question__title {
+        font-size: 150%;
+    }
+
+    .Question__BigDiv {
+        width: 100%;
+
+    }
+
+ 
+
+    .Question__BigBlock {
+        width: 85%;
+    }
+
+    .Question__industry {
+        width: 56%;
+    }
+
+    .Question__SmallBlock {
+        margin-top: 55px;
+    }
+
+    .Question__happiness {
+        width: 100%;
+    }
+
+    .Question__hobby {
+        width: 100%;
+    }
+
+    .Question__world {
+        font-size: 140%;
+    }
+
+    .Question__potential {
+        font-size: 140%;
+    }
+    .Question__life {
+        font-size: 140%;
+    }
+   
+    .Question__work {
+        font-size: 140%;
+    }
+    .WeHave {
+        width: 100%;
+        height: 300px;
+    }
+    .WeHave__title {
+        font-size: 175%;
+    }
+    .WeHave__speed {
+        width: 24%;
+        margin: 0 auto;
+        height: 240px;
+    }
+    .WeHave__freedom {
+        font-size: 165%;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 140%;
+    }
+    .Directions {
+        width: 100%;
+        height: 310px;
+        margin-top: 109px;
+        background: rgb(49, 60, 89);
+    }
+    .Directions__title {
+        font-size: 170%;
+    }
+    .Directions__bigBlock {
+        margin-top: 30px;
+      
+    }
+    .Directions__black {
+        width: 345px;
+        height: 85px;
+    }
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 160%;
+    }
+
+
+
+    .Directions__frontend {
+        font-size: 160%;
+        background: transparent;
+        border: none;
+    }
+
+    .Directions__smallBlock {
+        margin-top: 39px;
+       
+    }
+
+
+
+    .Directions__backend {
+        background: transparent;
+        border: none;
+        font-size: 160%;
+    }
+
+
+
+    .Directions__CMM {
+        background: transparent;
+        border: none;
+        font-size: 160%;
+    }
+    .Footer__logo {
+        width: 45%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 91px;
+    }
+
+    .Footer__bigBlock {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+        margin-bottom: 90px;
+
+
+    }
+    .Footer__home {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 180%;
+        font-weight: 800;
+        line-height: 49px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__aboutUs {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    
+    }
+    
+    .Footer__advantages {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__cours {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__study {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 180%;
+        font-weight: 800;
+        line-height: 49px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__kelechek {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    
+    
+    .Footer__contact {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 180%;
+        font-weight: 800;
+        line-height: 49px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__brotherNum {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .Footer__sisterNum {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 165%;
+        font-weight: 800;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+   
+}
+
+@media (max-width : 992px) {
+    .Home__bigTitle {
+        font-size: 155%;
+    }
+    .Home__sentence {
+        font-size: 125%;
+    }
+    .Home__img {
+        width: 37%;
+    }
+    .Advantages__titleBlock h2 {
+        font-size: 145%;
+    }
+    .Advantages__info-text {
+        font-size: 130%;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .Onlain__title {
+        font-size: 145%;
+    
+    }
+    .Onlain__img {
+        width: 31%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .Question {
+        width: 85%;
+    }
+    .Question__title {
+        font-size: 140%;
+    }
+    .Question__world {
+        font-size: 130%;
+    }
+    .Question__potential {
+        font-size: 130%;
+    }
+    .Question__life {
+        font-size: 130%;
+    }
+    .Question__work {
+        font-size: 130%;
+    }
+    .WeHave__title {
+        font-size: 160%;
+    }
+    .WeHave__freedom {
+        font-size: 154%;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 130%;
+    }
+    .Directions__title {
+        font-size: 150%;
+    }
+    .Directions__black {
+        width: 310px;
+        height: 70px;
+    }
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 146%;
+    }
+    .Directions__frontend {
+        font-size: 146%;
+        background: transparent;
+        border: none;
+    
+}
+.Directions__backend {
+    background: transparent;
+    border: none;
+    font-size: 146%;
+}
+.Directions__CMM {
+    background: transparent;
+    border: none;
+    font-size: 146%;
+}
+.Footer__logo {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 91px;
+}
+.Footer__bigBlock {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-bottom: 90px;
+
+
+}
+.Footer__home {
+   
+    font-size: 155%;
+   
+}
+
+.Footer__aboutUs {
+    
+    font-size: 147%;
+   
+
+}
+
+.Footer__advantages {
+   
+    font-size: 147%;
+   
+}
+
+.Footer__cours {
+  
+    font-size: 147%;
+  
+}
+
+.Footer__study {
+   
+    font-size: 147%;
+    
+
+}
+
+.Footer__block {
+    width: 40%;
+}
+
+
+
+
+.Footer__adres {
+   
+    font-size: 155%;
+    
+}
+
+.Footer__kelechek {
+    
+    font-size: 147%;
+   
+}
+
+
+
+.Footer__contact {
+   
+    font-size: 155%;
+  
+}
+
+.Footer__brotherNum {
+  
+    font-size: 147%;
+  
+}
+
+.Footer__sisterNum {
+   
+    font-size: 147%;
+  
+}
+
+
+}
+
+@media (max-width : 768px){
+    .Header__ul {
+        display: flex;
+        width: 82%;
+    }
+    .Home__bigTitle {
+        font-size: 120%;
+    }
+    .Home__sentence {
+        font-size: 110%;
+        margin-top: 10px;
+    }
+    .Home__img {
+        width: 35%;
+    }
+    .Advantages {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 55px;
+    }
+    .Advantages__titleBlock h2 {
+        font-size: 116%;
+    }
+    .Advantages__titleBlock h4 {
+        font-size: 125%;
+    }
+    .Advantages__info-text {
+        font-size: 115%;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    .Onlain {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        border-style: groove;
+    }
+    .Onlain__title {
+        font-size: 120%;
+    }
+    .Onlain__sentence {
+        margin: 0 auto;
+        font-size: 115%;
+    }
+    .Question {
+        width: 85%;
+        margin-top: 50px;
+        border-top: ridge;
+    }
+    .Question__title {
+        font-size: 110%;
+    }
+    .Question__world {
+        font-size: 108%;
+    }
+    .Question__potential {
+        font-size: 108%;
+    }
+    .Question__life {
+        font-size: 108%;
+    }
+    .Question__work {
+        font-size: 108%;
+    }
+    .WeHave {
+        width: 95%;
+        height: 265px;
+        margin-top: 70px;
+    }
+    .WeHave__title {
+        font-size: 140%;
+    }
+    .WeHave__speed {
+        width: 24%;
+        margin: 0 auto;
+        height: 190px;
+    }
+    .WeHave__freedom {
+        font-size: 125%;
+        margin-top: 10px;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 105%;
+    }
+    .Directions {
+        width: 100%;
+        height: 250px;
+        margin-top: 73px;
+        background: rgb(49, 60, 89);
+    }
+    .Directions__title {
+        font-size: 125%;
+    }
+    .Directions__black {
+        width: 270px;
+        height: 62px;
+    }
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 120%;
+    }
+    .Directions__frontend {
+        font-size: 120%;
+        background: transparent;
+        border: none;
+    }
+    .Directions__backend {
+        background: transparent;
+        border: none;
+        font-size: 120%;
+    }
+    .Directions__CMM {
+        background: transparent;
+        border: none;
+        font-size: 120%;
+    }
+    .Footer__home {
+   
+        font-size: 130%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 120%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 120%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 120%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 130%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 120%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 130%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 120%;
+      
+    }
+    
+    
+
+
+}
+
+@media (max-width : 576px ) {
+    .Header__ul {
+        display: flex;
+        width: 76%;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+    .Home__bigTitle {
+        font-size: 105%;
+    }
+    .Home__sentence {
+        font-size: 90%;
+        margin-top: 10px;
+    }
+    .Home__img {
+        width: 36%;
+    }
+    .Advantages__titleBlock h2 {
+        font-size: 95%;
+    }
+    .Advantages__titleBlock h4 {
+        font-size: 90%;
+    }
+    .Advantages__info-text {
+        font-size: 85%;
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+    .Onlain__title {
+        font-size: 100%;
+    }
+    .Onlain__sentence {
+        margin: 0 auto;
+        font-size: 95%;
+    }
+    .Onlain__img {
+        width: 32%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .Question__title {
+        font-size: 90%;
+    }
+    .Question__world {
+        font-size: 84%;
+    }
+    .Question__potential {
+        font-size: 84%;
+    }
+    .Question__life {
+        font-size: 84%;
+    }
+    .Question__work {
+        font-size: 84%;
+    }
+    .WeHave__title {
+        font-size: 110%;
+    }
+    .WeHave__freedom {
+        font-size: 105%;
+        margin-top: 10px;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 80%;
+    }
+    .WeHave__speed {
+        width: 24%;
+        margin: 0 auto;
+        height: 160px;
+    }
+    .WeHave {
+        width: 95%;
+        height: 205px;
+        margin-top: 70px;
+    }
+    .Directions {
+        width: 100%;
+        height: 185px;
+        margin-top: 73px;
+        background: rgb(49, 60, 89);
+    }
+    .Directions__title {
+        font-size: 100%;
+    }
+    .Directions__black {
+        width: 210px;
+        height: 45px;
+    }
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 95%;
+    }
+    .Directions__frontend {
+        font-size: 95%;
+        background: transparent;
+        border: none;
+    }
+    .Directions__smallBlock {
+        margin-top: 25px;
+    }
+    .Directions__backend {
+        background: transparent;
+        border: none;
+        font-size: 95%;
+    }
+    .Directions__CMM {
+        background: transparent;
+        border: none;
+        font-size: 95%;
+    }
+    .Footer__logo {
+        width: 41%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 54px;
+    }
+    .Footer__home {
+   
+        font-size: 110%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 100%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 100%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 100%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 100%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 110%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 100%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 110%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 100%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 100%;
+      
+    }
+    
+
+}
+
+@media (max-width : 480px) {
+    .Header__nav {
+        width: 100%;
+        display: flex;
+        height: 100px;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+    .Header__ul {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+    .Header__logo {
+        width: 40%;
+        
+    }
+    .Home__img {
+        width: 43%;
+      
+    }
+    .Advantages__titleBlock h2 {
+        font-size: 84%;
+    }
+    .Advantages__titleBlock h4 {
+        font-size: 80%;
+    }
+    .Advantages__info-text {
+        font-size: 75%;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+    .Onlain__title {
+        font-size: 90%;
+    }
+    .Onlain__sentence {
+        margin: 0 auto;
+        font-size: 80%;
+    }
+    .Onlain__img {
+        width: 33%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .Question__title {
+        font-size: 73%;
+    }
+    .Question__world {
+        font-size: 70%;
+    }
+    .Question__potential {
+        font-size: 70%;
+    }
+    .Question__life {
+        font-size: 70%;
+    }
+    .Question__work {
+        font-size: 70%;
+    }
+    .WeHave {
+        width: 95%;
+        height: 170px;
+        margin-top: 70px;
+    }
+    .WeHave__title {
+        font-size: 95%;
+    }
+    .WeHave__speed {
+        width: 24%;
+        margin: 0 auto;
+        height: 135px;
+    }
+    .WeHave__freedom {
+        font-size: 90%;
+        margin-top: 10px;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 70%;
+    }
+    .Directions {
+        width: 100%;
+        height: 170px;
+        margin-top: 73px;
+        background: rgb(49, 60, 89);
+    }
+    .Directions__title {
+        font-size: 90%;
+    }
+    .Directions__black {
+        width: 185px;
+        height: 36px;
+    }
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 83%;
+    }
+    .Directions__frontend {
+        font-size: 83%;
+        background: transparent;
+        border: none;
+    }
+    .Directions__backend {
+        background: transparent;
+        border: none;
+        font-size: 83%;
+    }
+    .Directions__CMM {
+        background: transparent;
+        border: none;
+        font-size: 83%;
+    }
+    .Footer__logo {
+        width: 44%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 54px;
+    }
+    .Footer__home {
+   
+        font-size: 95%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 85%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 85%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 85%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 85%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 95%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 85%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 95%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 85%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 85%;
+      
+    }
+
+
+
+
+    
+}
+
+@media (max-width : 320px) {
+    .Header__ul-link {
+        margin-left: 15px;
+    }
+    .Home__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .Home__bigTitle {
+        font-size: 90%;
+    }
+    .Home__sentence {
+        font-size: 75%;
+        margin-top: 10px;
+    }
+    .Home__img {
+        width: 49%;
+    }
+    .Advantages {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 55px;
+        height: 290px;
+    }
+    .Advantages__titleBlock h2 {
+        font-size: 70%;
+        padding: 7px;
+    }
+    .Advantages__titleBlock h4 {
+        font-size: 69%;
+    }
+    .Advantages__info-text {
+        font-size: 65%;
+        margin: 0 auto;
+        margin-top: 33px;
+    }
+    .Onlain__title {
+        font-size: 85%;
+    }
+    .Onlain__sentence {
+        margin: 0 auto;
+        font-size: 80%;
+    }
+    .Onlain__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    .Onlain__img {
+        width: 35%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .Question {
+        width: 85%;
+        margin-top: 50px;
+        border-top: ridge;
+        height: 215px;
+    }
+    .Question__title {
+        font-size: 53%;
+        padding: 10px;
+    }
+    .Question__world {
+        font-size: 50%;
+    }
+    .Question__potential {
+        font-size: 50%;
+    }
+    .Question__SmallBlock {
+        margin-top: 30px;
+    }
+    .Question__life {
+        font-size: 50%;
+    }
+    .Question__work {
+        font-size: 50%;
+    }
+    .WeHave {
+        width: 95%;
+        height: 145px;
+        margin-top: 50px;
+    }
+    .WeHave__title {
+        font-size: 80%;
+    }
+    .WeHave__speed {
+        width: 24%;
+        margin: 0 auto;
+        height: 110px;
+    }
+    .WeHave__freedom {
+        font-size: 70%;
+        margin-top: 10px;
+    }
+    .WeHave__benefit {
+        margin-top: 10px;
+        font-size: 55%;
+    }
+    .Directions {
+        width: 100%;
+        height: 130px;
+        margin-top: 73px;
+        background: rgb(49, 60, 89);
+    }
+    .Directions__title {
+        font-size: 80%;
+    }
+    
+    .Directions__black {
+        width: 131px;
+        height: 25px;
+    }
+    .Directions__bigBlock {
+        margin-top: 22px;
+    }
+
+    .Directions__mobile {
+        background: transparent;
+        border: none;
+        font-size: 60%;
+    }
+    .Directions__frontend {
+        font-size: 60%;
+        background: transparent;
+        border: none;
+    }
+    .Directions__smallBlock {
+        margin-top: 18px;
+    }
+    .Directions__backend {
+        background: transparent;
+        border: none;
+        font-size: 60%;
+    }
+    .Directions__CMM {
+        background: transparent;
+        border: none;
+        font-size: 60%;
+    }
+    .Footer__home {
+   
+        font-size: 80%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 75%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 75%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 75%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 75%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 80%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 75%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 80%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 75%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 75%;
+      
+    }
+  
+
+
+
+
+
+
+
+}
+
+        

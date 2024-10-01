@@ -1,0 +1,118 @@
+.teachers{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.teachers__card-content{
+    margin: 0 1%;
+}
+.teachers__card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+.teachers__card-image{
+    width: 75%;
+    border-radius: 10%;
+ 
+    background: rgb(80, 94, 130);
+}
+/* .swiper-button-prev{
+    margin-left: 20px !important;
+} */
+/* .swiper-pagination{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 280px;
+   
+} */
+.teachers__image-content{
+    position: relative;
+    row-gap: 5px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5%;
+}
+ .teachers__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(80, 94, 130);
+    border-radius: 15% 15% 0 15%;
+ }
+ .teachers_overlay::before, .teachers_overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    background-color: red;
+ }
+ .teachers__overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: blue;
+ }
+ .teachers__image-card{
+    position: relative;
+    height: 2000px;
+    width: 75%;
+    border-radius: 45%;
+    background: rgb(116, 116, 153);
+ }
+ .teachers__img{
+    width: 38%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+
+ }
+/* .teachers_image-card {
+    /* height: 100%;
+    width: 100%; */
+    /* object-fit: cover;
+    border-radius: 30%;
+    border: 4px solid rgb(180, 31, 31);
+} */ 
+.teachers__name{
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+}
+.teachers__descripter{
+    font-family: Montserrat;
+    font-size: 120%;
+    color: gray;
+    text-align: center;
+}
+.teahers__btn{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+}
+.teachers__btn:hover{
+    background: rgb(255, 0, 0);
+}
+.swiper{
+    display: flex;
+}
+   

@@ -1,0 +1,713 @@
+.CmmDev{
+    width: 100%;
+    background-color: rgb(37, 24, 115);
+ 
+}
+.container{
+    margin: 0 auto;
+
+   
+}
+.CmmDev__Home{
+   
+    background: rgb(27, 35, 57);
+    border-radius: 80px;
+   
+
+}
+.CmmDev__text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    
+}
+.CmmDev__title{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.CmmDev__sentence{
+                                                               
+    
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.CmmDev__img{
+   
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.CmmDev__Salary{
+    border-radius: 100px;
+    margin-top: 50px;
+    background: rgb(27, 35, 57);
+    width: 100%;
+    height: 250px;
+}
+.CmmDev__subTitle{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.CmmDev__BossBlock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.CmmDev__Block{
+  margin-top: 50px;
+}
+.CmmDev__developer{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.CmmDev__som{
+    margin-top: 10px;
+    color: rgb(0, 47, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+@media (max-width : 1024px) {
+    .CmmDev__title {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .CmmDev__sentence {
+        font-size: 15px;
+    }
+    .CmmDev__img {
+        width: 24%;
+    }
+    .CmmDev__subTitle {
+        font-size: 21px;
+    }
+    .CmmDev__developer {
+        font-size: 18px;
+    }
+    .CmmDev__som {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .Footer__logo {
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 85px;
+    }
+    .Footer__home {
+   
+        font-size: 145%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 135%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 135%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 135%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 135%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 145%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 135%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 145%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 135%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 135%;
+      
+    }
+    .Footer__whatsapp {
+        width: 4%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 4%;
+    }
+    .Footer__telegram {
+        width: 5%;
+    }
+
+}
+
+@media (max-width : 992px) {
+    .CmmDev__img {
+        width: 30%;
+    }
+    .CmmDev__subTitle {
+        font-size: 20px;
+    }
+    .CmmDev__developer {
+        font-size: 17px;
+    }
+    .CmmDev__som {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .CmmDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        background: rgb(27, 35, 57);
+        width: 100%;
+        height: 215px;
+    }
+    .Footer__logo {
+        width: 30%;
+    }
+    .Footer__home {
+   
+        font-size: 130%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 120%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 120%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 120%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 130%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 120%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 130%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 120%;
+      
+    }
+    .Footer__whatsapp {
+        width: 4%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 4%;
+    }
+    .Footer__telegram {
+        width: 5%;
+    }
+
+}
+
+@media (max-width : 768px) {
+    .CmmDev__title {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .CmmDev__sentence {
+        font-size: 10px;
+    }
+    .CmmDev__img {
+        width: 26%;
+       
+    }
+    .CmmDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 152px;
+    }
+    .CmmDev__subTitle {
+        font-size: 17px;
+    }
+    .CmmDev__Block {
+        margin-top: 13px;
+    }
+    .CmmDev__developer {
+        font-size: 14px;
+    }
+    .CmmDev__som {
+        margin-top: 10px;
+        font-size: 13px;
+    }  
+    .Footer__home {
+   
+        font-size: 105%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 95%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 95%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 95%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 95%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 105%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 95%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 105%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 95%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 95%;
+      
+    }
+    .Footer__whatsapp {
+        width: 3%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 3%;
+    }
+    .Footer__telegram {
+        width: 4%;
+    }
+}
+
+@media (max-width : 576px) {
+    .CmmDev__Home {
+        border-radius: 80px;
+        height: 140px;
+    }
+
+    .CmmDev__text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .CmmDev__title {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .CmmDev__sentence {
+        font-size: 8px;
+        margin-top: -16px;
+    }
+
+    .CmmDev__img {
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    .CmmDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 130px;
+    }
+
+    .CmmDev__subTitle {
+        font-size: 14px;
+    }
+
+    .CmmDev__BossBlock {
+      
+        margin-top: -25px;
+    }
+    .CmmDev__Block {
+        margin-top: 40px;
+    }
+    .CmmDev__developer {
+        font-size: 11px;
+    }
+    .CmmDev__som {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .Footer__home {
+   
+        font-size: 90%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 80%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 80%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 80%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 80%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 90%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 80%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 90%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 80%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 80%;
+      
+    }
+
+}
+
+@media (max-width : 480px) {
+    .CmmDev__Home {
+        border-radius: 80px;
+        height: 145px;
+    }
+    .CmmDev__text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2px;
+    }
+    .CmmDev__title {
+        margin: 0 auto;
+        font-size: 11px;
+    }
+    .CmmDev__sentence {
+        font-size: 6px;
+        margin-top: -15px;
+    }
+    .CmmDev__img {
+        width: 25%;
+    }
+    .CmmDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 124px;
+    }
+    .Footer__home {
+   
+        font-size: 80%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 70%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 70%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 70%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 70%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 80%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 70%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 80%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 70%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 70%;
+      
+    }
+   
+}
+
+@media (max-width : 320px) {
+    .CmmDev {
+        height: 335px;
+    }
+    .CmmDev__Home {
+        border-radius: 80px;
+        height: 115px;
+    }
+    .CmmDevDev__text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .CmmDev__title {
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    .CmmDevDev__sentence {
+        font-size: 5px;
+        margin-top: 12px;
+    }
+    .CmmDev__img {
+        width: 33%;
+        margin-top: 10px;
+    }
+    .CmmDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 105px;
+    }
+    .CmmDev__subTitle {
+        font-size: 10px;
+    }
+    .CmmDev__developer {
+        font-size: 8px;
+    }
+    .CmmDev__som {
+        margin-top: 10px;
+        font-size: 7px;
+    }
+
+}
+
+
+
+

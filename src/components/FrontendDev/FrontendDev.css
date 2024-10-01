@@ -1,0 +1,685 @@
+.FrontendDev{
+    width: 100%;
+    background-color: rgb(37, 24, 115);
+ 
+}
+.container{
+    margin: 0 auto;
+
+   
+}
+.FrontendDev__Home{
+   
+    background: rgb(27, 35, 57);
+    border-radius: 80px;
+   
+
+}
+.FrontendDev__text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    
+}
+.FrontendDev__title{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FrontendDev__sentence{
+                                                               
+    
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FrontendDev__img{
+   
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FrontendDev__Salary{
+    border-radius: 100px;
+    margin-top: 50px;
+    background: rgb(27, 35, 57);
+    width: 100%;
+    height: 250px;
+}
+.FrontendDev__subTitle{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FrontendDev__BossBlock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.FrontendDev__Block{
+  margin-top: 50px;
+}
+.FrontendDev__developer{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FrontendDev__som{
+    margin-top: 10px;
+    color: rgb(0, 47, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+@media (max-width : 1024px) {
+    .FrontendDev__title {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .FrontendDev__sentence {
+        font-size: 15px;
+    }
+    .FrontendDev__img {
+        width: 30%;
+    }
+    .FrontendDev__subTitle {
+        font-size: 21px;
+    }
+    .FrontendDev__developer {
+        font-size: 18px;
+    }
+    .FrontendDev__som {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .Footer__logo {
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 85px;
+    }
+    .Footer__home {
+   
+        font-size: 145%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 135%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 135%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 135%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 135%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 145%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 135%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 145%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 135%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 135%;
+      
+    }
+    .Footer__whatsapp {
+        width: 4%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 4%;
+    }
+    .Footer__telegram {
+        width: 5%;
+    }
+
+}
+
+@media (max-width : 992px) {
+    .FrontendDev__subTitle {
+        font-size: 20px;
+    }
+    .FrontendDev__developer {
+        font-size: 17px;
+    }
+    .FrontendDev__som {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .FrontendDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        background: rgb(27, 35, 57);
+        width: 100%;
+        height: 175px;
+    }
+    .Footer__logo {
+        width: 30%;
+    }
+    .Footer__home {
+   
+        font-size: 130%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 120%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 120%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 120%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 130%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 120%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 130%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 120%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 120%;
+      
+    }
+    .Footer__whatsapp {
+        width: 4%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 4%;
+    }
+    .Footer__telegram {
+        width: 5%;
+    }
+
+}
+
+@media (max-width : 768px) {
+    .FrontendDev__title {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .FrontendDev__sentence {
+        font-size: 10px;
+    }
+    .FrontendDev__img {
+        width: 28%;
+    }
+    .FrontendDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 185px;
+    }
+    .FrontendDev__subTitle {
+        font-size: 17px;
+    }
+    .FrontendDev__Block {
+        margin-top: 13px;
+    }
+    .FrontendDev__developer {
+        font-size: 14px;
+    }
+    .FrontendDev__som {
+        margin-top: 10px;
+        font-size: 13px;
+    }  
+    .Footer__home {
+   
+        font-size: 105%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 95%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 95%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 95%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 95%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 105%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 95%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 105%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 95%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 95%;
+      
+    }
+    .Footer__whatsapp {
+        width: 3%;
+    }
+    .Footer__youtube {
+        width: 3%;
+    }
+    .Footer__insta {
+        width: 3%;
+    }
+    .Footer__telegram {
+        width: 4%;
+    }
+}
+
+@media (max-width : 576px) {
+    .FrontendDev__Home {
+        border-radius: 80px;
+        height: 115px;
+    }
+    .FrontendDev__title {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .FrontendDev__sentence {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    .FrontendDev__img {
+        width: 27%;
+    }
+    .FrontendDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 130px;
+    }
+    .FrontendDev__subTitle {
+        font-size: 14px;
+    }
+    .FrontendDev__BossBlock {
+      
+        margin-top: -25px;
+    }
+    .FrontendDev__developer {
+        font-size: 11px;
+    }
+    .FrontendDev__som {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .Footer__home {
+   
+        font-size: 90%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 80%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 80%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 80%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 80%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 90%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 80%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 90%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 80%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 80%;
+      
+    }
+
+}
+
+@media (max-width : 480px) {
+    .FrontendDev__Home {
+        border-radius: 80px;
+        height: 100px;
+    }
+    .FrontendDev__text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2px;
+    }
+    .FrontendDev__title {
+        margin: 0 auto;
+        font-size: 11px;
+    }
+    .FrontendDev__sentence {
+        font-size: 6px;
+        margin-top: 18px;
+    }
+    .FrontendDev__img {
+        width: 29%;
+    }
+    .FrontendDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 139px;
+    }
+    .Footer__home {
+   
+        font-size: 80%;
+       
+    }
+    
+    .Footer__aboutUs {
+        
+        font-size: 70%;
+       
+    
+    }
+    
+    .Footer__advantages {
+       
+        font-size: 70%;
+       
+    }
+    
+    .Footer__cours {
+      
+        font-size: 70%;
+      
+    }
+    
+    .Footer__study {
+       
+        font-size: 70%;
+        
+    
+    }
+    
+    .Footer__block {
+        width: 40%;
+    }
+    
+    
+    
+    
+    .Footer__adres {
+       
+        font-size: 80%;
+        
+    }
+    
+    .Footer__kelechek {
+        
+        font-size: 70%;
+       
+    }
+    
+    
+    
+    .Footer__contact {
+       
+        font-size: 80%;
+      
+    }
+    
+    .Footer__brotherNum {
+      
+        font-size: 70%;
+      
+    }
+    
+    .Footer__sisterNum {
+       
+        font-size: 70%;
+      
+    }
+   
+}
+
+@media (max-width : 320px) {
+    .FrontendDev__Home {
+        border-radius: 80px;
+        height: 80px;
+    }
+    .FrontendDev__text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .FrontendDev__title {
+        margin: 0 auto;
+        font-size: 9px;
+    }
+    .FrontendDev__sentence {
+        font-size: 5px;
+        margin-top: 12px;
+    }
+    .FrontendDev__img {
+        width: 29%;
+        margin-top: 13px;
+    }
+    .FrontendDev__Salary {
+        border-radius: 100px;
+        margin-top: 50px;
+        width: 100%;
+        height: 112px;
+    }
+    .FrontendDev__subTitle {
+        font-size: 10px;
+    }
+    .FrontendDev__developer {
+        font-size: 8px;
+    }
+    .FrontendDev__som {
+        margin-top: 10px;
+        font-size: 7px;
+    }
+
+}
+
